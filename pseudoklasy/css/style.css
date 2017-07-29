@@ -1,0 +1,77 @@
+body {
+	background-color:navy;
+}
+
+a {
+	text-decoration: none;
+}
+a:link {
+	color: orange;
+}
+a:visited {
+	color: greenyellow;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+/*a:active {
+	color: brown
+}
+
+/*a:focus {
+	color: darkmagenta;
+}
+*/
+#p1 {
+color: blue;
+}
+
+#p1:target {
+	color: gray;
+}
+
+p:lang(pl) {
+	font-style: italic;
+	color: blueviolet;
+}
+p:lang(en) {
+	font-style: italic;
+	color: green;
+	
+}
+
+p:lang(de) {
+	font-style: italic;
+	color: orange;
+	
+}
+
+div.klient:first-child {
+	color: chartreuse;
+}
+div.klient:last-child {
+	color: coral;
+}
+div.klient:only-child {
+	color: red;
+}
+div.klient:empty {
+	width:120px;
+	height: 20px;
+	background-color: crimson;
+}
+
+.klient:nth-child(even) {
+	background-color: beige;
+}
+.klient:nth-child(odd) {
+	background-color: black;
+	color: #fff;
+}
+.klient:nth-child(5n) {
+	background-color: cyan;
+}
+.klient:nth-child(5n+4) {
+	background-color: yellow;
+}
